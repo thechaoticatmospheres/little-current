@@ -1,0 +1,10 @@
+{
+  "name": "little-current",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test --experimental-test-isolation=none game/engine.test.mjs"
+  }
+}
